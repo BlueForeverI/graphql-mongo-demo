@@ -12,7 +12,7 @@ const Mutations = require('./resolvers/mutations')
 const types = require('./schema.js')
 
 const URL = process.env.ENDPOINT || 'http://localhost'
-const PORT = process.env.port || 3001
+const PORT = process.env.PORT || 3001
 const MONGO_URL = process.env.MONGODB_URI
 
 export const start = async () => {
